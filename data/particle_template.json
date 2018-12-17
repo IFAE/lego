@@ -1,0 +1,20 @@
+{
+  "u":{
+    "name":,
+    "title":,
+    "pdgid":,
+    "mass":,
+    "charge":,
+    "spin":,
+    "baryon_number":,
+    "lepton_number":,
+    "composition":,
+    "decay_channels": [
+      {
+        "BR":,
+        "Particles":["",""]
+      }
+    ]
+
+  }
+}
