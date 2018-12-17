@@ -39,3 +39,4 @@ node_modules/
 
 # generated files by hugo
 /public/
+/resources/
