@@ -1,16 +1,16 @@
 +++
-title = "Up" # Readable name e.g Quark Up
+title = "Up"
 date= 2018-12-17T16:17:14+01:00
 draft= true
-name = "u" # Name of the particle e.g u
-pdgid = # The id at PDG
+name = "u"
+pdgid = 1
 image =
 
 [category]
-  composition = "" # elementary or composed
-  statistics = "" # fermion, boson
-  type = "" # quark, lepton, baryon, meson
-  generation =  # 1,2,3
+  composition = "elementary"
+  statistics = "fermion"
+  type = "quark"
+  generation = 1
 
 [history]
   theorized_year = 1964
