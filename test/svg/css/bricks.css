@@ -1,0 +1,79 @@
+g{
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+
+.blue {
+  --noshadow: blue;
+  --shadow1: darkblue;
+  --shadow0: mediumblue;
+}
+
+.red {
+  --noshadow: red;
+  --shadow1: darkred;
+  --shadow0: firebrick;
+}
+
+.green {
+  --noshadow: green;
+  --shadow1: darkgreen;
+  --shadow0: seagreen;
+}
+
+.yellow {
+  --noshadow: yellow;
+  --shadow1: gold;
+  --shadow0: khaki;
+}
+
+.cyan {
+  --noshadow: cyan;
+  --shadow1: mediumturquoise;
+  --shadow0: turquoise;
+}
+
+.magenta {
+  --noshadow: magenta;
+  --shadow1: darkorchid;
+  --shadow0: mediumorchid;
+}
+
+.white {
+  --noshadow: gainsboro;
+  --shadow1: silver;
+  --shadow0: lightgray;
+}
+
+.black {
+  --noshadow: black;
+  --shadow1: dimgray;
+  --shadow0: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* g .noshadow {
+  fill: blue;
+  stroke: blue;
+}
+g .shadow1 {
+  fill: darkblue;
+  stroke: darkblue;
+}
+g .shadow0 {
+  fill: mediumblue;
+  stroke: mediumblue;
+} */
