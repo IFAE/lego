@@ -54,8 +54,26 @@ g{
   --shadow0: darkgray;
 }
 
-.outline {
-  --noshadow: white;
-  --shadow1: white;
-  --shadow0: white;
+
+
+
+
+
+
+
+
+
+
+
+/* g .noshadow {
+  fill: blue;
+  stroke: blue;
 }
+g .shadow1 {
+  fill: darkblue;
+  stroke: darkblue;
+}
+g .shadow0 {
+  fill: mediumblue;
+  stroke: mediumblue;
+} */
