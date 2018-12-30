@@ -6,12 +6,22 @@
     <link rel="stylesheet" href="css/bricks.css">
   </head>
   <body>
-      <svg class="brick" width="200">
-        <use xlink:href="svg/bricks-svg-defs.svg#2x2brick" class="white"/>
+      <!-- <svg class="brick">
+        <use xlink:href="svg/bricks-svg-defs.svg#2x2brick" class="red"/>
       </svg>
-      <svg class="brick" width="200">
-        <use xlink:href="svg/bricks-svg-defs.svg#1x1brick" class="red"/>
+      <svg class="brick">
+        <use xlink:href="svg/bricks-svg-defs.svg#2x3brick" class="white"/>
       </svg>
+      <svg class="brick">
+        <use xlink:href="svg/bricks-svg-defs.svg#2x4brick" class="white"/>
+      </svg> -->
+<div class="container" >
+    <svg class="brick" preserveAspectRatio="xMinYMin meet">
+      <use xlink:href="svg/bricks-svg-defs.svg#2x3brick" transform="translate(4,20)"/>
+      <use xlink:href="svg/bricks-svg-defs.svg#2x2brick" class="cyan" transform="translate(0,-15)"/>
+    </svg>
+  </div>
+
 
   </body>
 </html>

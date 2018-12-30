@@ -1,23 +1,30 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="display: none;">
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="bricks.css"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+  <style>/* <![CDATA[ */
+    .blue {
+      --noshadow: blue;
+      --shadow1: darkblue;
+      --shadow0: mediumblue;
+    }
+   /* ]]> */
+   </style>
   <defs>
     <g id="pin">
-      <path class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" d="
-        M42.554,36.428c0.01,0.21,0,0.41-0.03,0.61c-0.029,0.21-0.069,0.42-0.13,0.63c-0.06,0.23-0.14,0.45-0.24,0.67
-        c-0.109,0.25-0.239,0.5-0.399,0.74c-0.2,0.32-0.44,0.63-0.721,0.92c-0.89,0.98-2.159,1.85-3.76,2.52
-        c-0.069,0.03-0.14,0.06-0.2,0.09c-0.479,0.19-0.97,0.35-1.46,0.5c-0.38,0.11-0.77,0.21-1.159,0.29
-        c-0.351,0.07-0.7,0.14-1.061,0.19c-0.33,0.05-0.67,0.09-1,0.12c-0.33,0.03-0.66,0.04-0.99,0.05c-0.34,0.01-0.67,0.02-1,0.01
-        c-0.35-0.01-0.699-0.04-1.04-0.07c-0.38-0.03-0.76-0.08-1.13-0.14c-0.45-0.08-0.89-0.17-1.31-0.29
-        c-1.67-0.45-3.11-1.19-4.13-2.21c-0.86-0.85-1.311-1.8-1.41-2.78l-0.8-7.86c0.1,0.97,0.56,1.92,1.41,2.77
-        c1.02,1.02,2.47,1.77,4.13,2.22c0.43,0.11,0.859,0.2,1.31,0.28c0.37,0.06,0.75,0.11,1.13,0.15c0.351,0.03,0.69,0.05,1.04,0.06
-        c0.33,0.01,0.67,0.01,1,0c0.33-0.01,0.66-0.03,0.99-0.06c0.34-0.03,0.67-0.07,1.01-0.12c0.351-0.05,0.7-0.11,1.061-0.19
-        c0.39-0.08,0.77-0.18,1.149-0.29c0.5-0.14,0.99-0.31,1.46-0.5c0.07-0.03,0.141-0.06,0.2-0.08c1.61-0.68,2.88-1.55,3.771-2.52
-        c0.27-0.3,0.51-0.61,0.71-0.92c0.159-0.25,0.3-0.49,0.409-0.75c0.101-0.22,0.181-0.44,0.24-0.66
-        c0.061-0.21,0.101-0.42,0.13-0.63c0.021-0.21,0.03-0.41,0.03-0.61c-0.01-0.1-0.01-0.2-0.02-0.3l0.789,7.86
-        C42.544,36.228,42.554,36.328,42.554,36.428z"/>
-      <path class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" d="
-        M40.329,25.488
-        c2.938,2.938,1.209,7.039-3.852,9.166c-5.062,2.127-11.543,1.476-14.481-1.463c-2.934-2.934-1.209-7.039,3.853-9.166
-        C30.909,21.898,37.395,22.554,40.329,25.488z"/>
+      <path class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" d="M79.178,50.88c0.011,0.2,0,0.41-0.029,0.61
+  			c-0.021,0.21-0.07,0.42-0.12,0.63c-0.07,0.22-0.15,0.45-0.24,0.67c-0.12,0.25-0.25,0.5-0.41,0.74c-0.2,0.32-0.439,0.62-0.71,0.92
+  			c-0.89,0.97-2.16,1.85-3.77,2.52c-0.07,0.03-0.131,0.06-0.2,0.08c-0.48,0.19-0.96,0.36-1.46,0.51c-0.38,0.11-0.771,0.2-1.16,0.29
+  			c-0.35,0.07-0.7,0.13-1.05,0.19c-0.34,0.05-0.67,0.08-1.011,0.11c-0.329,0.03-0.659,0.05-0.989,0.06c-0.33,0.01-0.67,0.01-1,0
+  			c-0.351-0.01-0.7-0.03-1.04-0.06c-0.38-0.04-0.76-0.08-1.13-0.15c-0.45-0.07-0.891-0.17-1.311-0.28
+  			c-1.66-0.45-3.109-1.19-4.13-2.21c-0.85-0.86-1.31-1.81-1.41-2.78l-0.8-7.87c0.1,0.98,0.56,1.93,1.41,2.78
+  			c1.02,1.02,2.47,1.76,4.14,2.21c0.42,0.12,0.86,0.21,1.311,0.29c0.37,0.06,0.739,0.11,1.13,0.14c0.34,0.04,0.689,0.06,1.04,0.07
+  			c0.33,0.01,0.66,0.01,1,0c0.33-0.01,0.66-0.03,0.99-0.06c0.329-0.03,0.67-0.07,1-0.12c0.35-0.05,0.71-0.12,1.06-0.19
+  			c0.39-0.08,0.78-0.18,1.16-0.29c0.49-0.14,0.979-0.31,1.45-0.5c0.069-0.03,0.14-0.06,0.21-0.09c1.6-0.67,2.87-1.54,3.76-2.51
+  			c0.28-0.3,0.51-0.61,0.72-0.92c0.15-0.25,0.29-0.5,0.4-0.75c0.1-0.22,0.18-0.44,0.24-0.67c0.06-0.2,0.1-0.41,0.13-0.62
+  			c0.02-0.21,0.029-0.41,0.029-0.62c0-0.1-0.01-0.19-0.02-0.29l0.8,7.86C79.168,50.681,79.178,50.781,79.178,50.88z"/>
+      <path class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" d="M76.956,39.938
+  			c2.938,2.938,1.209,7.04-3.852,9.167c-5.061,2.126-11.543,1.476-14.481-1.463c-2.934-2.934-1.209-7.04,3.852-9.167
+  			C67.535,36.348,74.022,37.004,76.956,39.938z"/>
     </g>
     <g id="2pins">
       <use xlink:href="#pin"/>
@@ -27,25 +34,118 @@
       <use xlink:href="#2pins"/>
       <use xlink:href="#2pins" transform="translate(37,-15)"/>
     </g>
+    <g id="6pins">
+      <use xlink:href="#2pins"/>
+      <use xlink:href="#2pins" transform="translate(37,-15)"/>
+      <use xlink:href="#2pins" transform="translate(74,-30)"/>
+    </g>
+    <g id="8pins">
+      <use xlink:href="#4pins"/>
+      <use xlink:href="#4pins" transform="translate(74,-30)"/>
+    </g>
     <g id="2x2body">
-      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="118.794,45.119 121.975,76.583 48.635,107.401 45.454,75.938"/>
-      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="45.454,75.938 48.635,107.401 6.114,64.881 2.934,33.417"/>
-      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="118.794,45.119 45.454,75.938 2.934,33.417 76.273,2.599"/>
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			156.528,60.392 159.709,91.855 86.369,122.674 83.188,91.21 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			83.188,91.21 86.369,122.674 43.849,80.153 40.668,48.689 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			156.528,60.392 83.188,91.21 40.668,48.689 114.008,17.871 		"/>
+    </g>
+    <g id="2x3body">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			193.434,44.817 196.613,76.281 86.601,122.511 83.421,91.047 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			83.421,91.047 86.601,122.511 44.08,79.99 40.9,48.526 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			193.434,44.817 83.421,91.047 40.9,48.526 150.913,2.296 		"/>
+    </g>
+    <g id="2x4body">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			193.006,45.209 196.186,76.673 49.515,138.308 46.335,106.844 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			46.335,106.844 49.515,138.308 6.994,95.787 3.814,64.323 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			193.006,45.209 46.335,106.844 3.814,64.323 150.485,2.688 		"/>
     </g>
     <g id="1x1body">
-      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="89.828,42.195 93.008,73.659 56.343,89.067 53.163,57.604"/>
-      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="53.163,57.604 56.343,89.067 35.08,67.805 31.9,36.34" />
-      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="89.828,42.195 53.163,57.604	31.9,36.34 68.565,20.933"/>
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="98.562,54.468 101.742,85.932
+  			65.077,101.34 61.897,69.876 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="61.897,69.876 65.077,101.34
+  			43.814,80.077 40.635,48.613 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="98.562,54.468 61.897,69.876
+  			40.635,48.613 77.3,33.205 		"/>
+    </g>
+    <g id="1x2body">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="135.25,39.199 138.431,70.663
+  			65.091,101.481 61.911,70.018 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="61.911,70.018 65.091,101.481
+  			43.829,80.22 40.648,48.755 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="135.25,39.199 61.911,70.018
+  			40.648,48.755 113.988,17.937 		"/>
+    </g>
+    <g id="1x3body">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			171.956,23.719 175.136,55.184 65.122,101.413 61.942,69.949 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			61.942,69.949 65.122,101.413 43.864,80.155 40.685,48.691 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			171.956,23.719 61.942,69.949 40.685,48.691 150.698,2.461 		"/>
+    </g>
+    <g id="1x1low">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			98.383,54.453 99.973,70.186 63.299,85.597 61.709,69.864 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			61.709,69.864 63.299,85.597 42.037,64.334 40.446,48.602 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			98.383,54.453 61.709,69.864 40.446,48.602 77.12,33.191 		"/>
+    </g>
+    <g id="1x2low">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			135.477,39.137 137.066,54.869 63.728,85.688 62.138,69.956 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			62.138,69.956 63.728,85.688 42.465,64.426 40.875,48.693 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			135.477,39.137 62.138,69.956 40.875,48.693 114.214,17.875 		"/>
+    </g>
+    <g id="1x3low">
+      <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
+			171.924,23.69 173.514,39.422 63.509,85.648 61.919,69.918 		"/>
+      <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
+			61.919,69.918 63.509,85.648 42.247,64.387 40.657,48.655 		"/>
+      <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
+			171.924,23.69 61.919,69.918 40.657,48.655 150.662,2.428 		"/>
     </g>
   </defs>
 
-  <symbol id="2x2brick" viewBox="0 0 120 120">
+  <symbol id="2x2brick" viewBox="0 0 200 140">
       <use xlink:href="#2x2body"/>
       <use xlink:href="#4pins"/>
   </symbol>
 
-  <symbol id="1x1brick" viewBox="0 0 120 120">
+  <symbol id="2x3brick" viewBox="0 0 200 140" class="blue">
+      <use xlink:href="#2x3body"/>
+      <use xlink:href="#6pins" />
+  </symbol>
+
+  <symbol id="2x4brick" viewBox="0 0 200 140">
+      <use xlink:href="#2x4body"/>
+      <use xlink:href="#8pins"/>
+  </symbol>
+
+  <symbol id="test" viewBox="0 0 200 140">
+      <use xlink:href="#2x3brick" class="red"/>
+      <use xlink:href="#2x2brick" class="blue"/>
+  </symbol>
+
+
+  <symbol id="1x1brick" viewBox="0 0 200 140">
       <use xlink:href="#1x1body" transform="translate(-27)"/>
       <use xlink:href="#pin"/>
+  </symbol>
+
+  <symbol id="1x2brick" viewBox="0 0 200 140">
+      <use xlink:href="#1x2body"/>
+      <use xlink:href="#pin" transform="translate(10,8)"/>
+      <use xlink:href="#pin" transform="translate(44,-6)"/>
   </symbol>
 </svg>

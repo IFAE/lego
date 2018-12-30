@@ -1,8 +1,54 @@
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.brick {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
 g{
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
+}
+
+@keyframes matterloop {
+  0% {
+    --noshadow: blue;
+    --shadow1: darkblue;
+    --shadow0: mediumblue;
+  }
+  33% {
+    --noshadow: red;
+    --shadow1: darkred;
+    --shadow0: firebrick;
+  }
+  66% {
+    --noshadow: green;
+    --shadow1: darkgreen;
+    --shadow0: seagreen;
+  }
+  100% {
+    --noshadow: blue;
+    --shadow1: darkblue;
+    --shadow0: mediumblue;
+  }
+}
+
+.matter {
+  animation: matterloop 1s ease infinite;
 }
 
 
