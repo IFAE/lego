@@ -1,0 +1,104 @@
+// .container {
+//   display: inline-block;
+//   position: relative;
+//   width: 100%;
+//   padding-bottom: 100%;
+//   vertical-align: middle;
+//   overflow: hidden;
+// }
+
+.brick {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+g{
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+@keyframes matterloop {
+  0% {
+    --noshadow: blue;
+    --shadow1: darkblue;
+    --shadow0: mediumblue;
+  }
+  33% {
+    --noshadow: red;
+    --shadow1: darkred;
+    --shadow0: firebrick;
+  }
+  66% {
+    --noshadow: green;
+    --shadow1: darkgreen;
+    --shadow0: seagreen;
+  }
+  100% {
+    --noshadow: blue;
+    --shadow1: darkblue;
+    --shadow0: mediumblue;
+  }
+}
+
+.matter {
+  animation: matterloop 1s ease infinite;
+}
+
+
+.blue {
+  --noshadow: blue;
+  --shadow1: darkblue;
+  --shadow0: mediumblue;
+}
+
+.red {
+  --noshadow: red;
+  --shadow1: darkred;
+  --shadow0: firebrick;
+}
+
+.green {
+  --noshadow: green;
+  --shadow1: darkgreen;
+  --shadow0: seagreen;
+}
+
+.yellow {
+  --noshadow: yellow;
+  --shadow1: gold;
+  --shadow0: khaki;
+}
+
+.cyan {
+  --noshadow: cyan;
+  --shadow1: mediumturquoise;
+  --shadow0: turquoise;
+}
+
+.magenta {
+  --noshadow: magenta;
+  --shadow1: darkorchid;
+  --shadow0: mediumorchid;
+}
+
+.white {
+  --noshadow: gainsboro;
+  --shadow1: silver;
+  --shadow0: lightgray;
+}
+
+.black {
+  --noshadow: black;
+  --shadow1: dimgray;
+  --shadow0: darkgray;
+}
+
+.outline {
+  --noshadow: white;
+  --shadow1: white;
+  --shadow0: white;
+}

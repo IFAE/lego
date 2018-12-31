@@ -1,18 +1,18 @@
 {
   "u":{
-    "name":,
-    "title":,
-    "pdgid":,
-    "mass":,
-    "charge":,
-    "spin":,
-    "baryon_number":,
-    "lepton_number":,
-    "composition":,
+    "name":1,
+    "title":1,
+    "pdgid":1,
+    "mass":1,
+    "charge":1,
+    "spin":1,
+    "baryon_number":1,
+    "lepton_number":1,
+    "composition":1,
     "decay_channels": [
       {
-        "BR":,
-        "Particles":["",""]
+        "BR":1,
+        "Particles":["a","b"]
       }
     ]
 

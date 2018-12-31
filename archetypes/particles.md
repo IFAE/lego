@@ -4,7 +4,7 @@ date= {{ .Date }}
 draft= true
 name = "" # Name of the particle e.g u
 pdgid = # The id at PDG
-image =
+image = ""
 
 [category]
   composition = "" # elementary or composed
@@ -13,8 +13,8 @@ image =
   generation =  # 1,2,3
 
 [history]
-  theorized =
-  discovered =
+  theorized = ""
+  discovered = ""
 
 [info]
   url = ""
