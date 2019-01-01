@@ -117,7 +117,7 @@
     </g>
   </defs>
 
-  <symbol id="2x2brick" viewBox="0 0 200 140">
+  <symbol id="2x2brick">
       <use xlink:href="#2x2body"/>
       <use xlink:href="#4pins"/>
   </symbol>
