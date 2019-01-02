@@ -1,0 +1,2 @@
+{{ $partialpath := printf "svg/%s.svg" .particle }}
+{{ partial $partialpath (dict "width" .width) }}

@@ -3,6 +3,8 @@
   <div class="container">
     <h1 class="jumbotron-heading">{{.Title}}</h1>
     {{ (.Resources.GetMatch "*.svg").Content | safeHTML }}
+    {{ partial "brick.html" (dict "particle" $.Page.Params.name "width" 100)}}
+    <h2>{{$.Page.Params.name}}</h2>
   </div>
 </section>
 <section class="container">
@@ -22,10 +24,11 @@
     <div class="tab-pane fade active show" id="properties">
       <div class="row">
       {{$colors := dict "mass" "bg-success" "charge" "bg-warning" "composition" "bg-info" "spin" "bg-danger" "antiparticle" "bg-primary"}}
+      {{$units := dict "mass" "MeV/c2" "charge" "e"}}
       {{$order := slice "mass" "charge" "spin" "composition" "antiparticle"}}
       {{ range $order }}
         <div class="col-sm">
-        {{ partial "particlecard.html" (dict "color" (index $colors .) "key" . "value" (index $.Page.Params.data.properties .)) }}
+        {{ partial "particlecard.html" (dict "color" (index $colors .) "key" . "value" (index $.Page.Params.data.properties .) "unit" (index $units .) )}}
         </div>
       {{end}}
       </div>
