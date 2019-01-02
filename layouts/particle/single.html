@@ -6,67 +6,31 @@
   </div>
 </section>
 <section class="container">
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link show active" data-toggle="tab" href="#properties">Properties</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link show" data-toggle="tab" href="#classification">Classification</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link show" data-toggle="tab" href="#history">History</a>
-  </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-  <br>
-  <div class="tab-pane fade active show" id="properties">
-    <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-        <div class="card-header">Mass</div>
-        <div class="card-body">
-          <h4 class="card-title">2.3+0.7 −0.5 MeV/c2</h4>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link show active" data-toggle="tab" href="#properties">Properties</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link show" data-toggle="tab" href="#classification">Classification</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link show" data-toggle="tab" href="#history">History</a>
+    </li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+    <br>
+    <div class="tab-pane fade active show" id="properties">
+      <div class="row">
+      {{$colors := dict "mass" "bg-success" "charge" "bg-warning" "composition" "bg-info" "spin" "bg-danger" "antiparticle" "bg-primary"}}
+      {{$order := slice "mass" "charge" "spin" "composition" "antiparticle"}}
+      {{ range $order }}
+        <div class="col-sm">
+        {{ partial "particlecard.html" (dict "color" (index $colors .) "key" . "value" (index $.Page.Params.data.properties .)) }}
         </div>
+      {{end}}
+      </div>
     </div>
   </div>
 
-  <div class="tab-pane fade active show" id="properties">
-    <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
-        <div class="card-header">Charge</div>
-        <div class="card-body">
-          <h4 class="card-title">2/3 e</h4>
-        </div>
-    </div>
-  </div>
-
-  <div class="tab-pane fade active show" id="properties">
-    <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
-        <div class="card-header">Composition</div>
-        <div class="card-body">
-          <h4 class="card-title">Elementary</h4>
-        </div>
-    </div>
-  </div>
-
-  <div class="tab-pane fade active show" id="properties">
-    <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-        <div class="card-header">Spin</div>
-        <div class="card-body">
-          <h4 class="card-title">1/2</h4>
-        </div>
-    </div>
-  </div>
-
-  <div class="tab-pane fade active show" id="properties">
-    <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-        <div class="card-header">Antiparticle</div>
-        <div class="card-body">
-          <h4 class="card-title">Quark Anti-Up</h4>
-        </div>
-    </div>
-  </div>
-
-  <div class="tab-pane fade" id="history">
-    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-  </div>
-</div>
 </section>
 {{ end }}

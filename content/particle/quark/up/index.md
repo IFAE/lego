@@ -6,13 +6,21 @@ name = "u"
 pdgid = 1
 image = ""
 
-[category]
+[data]
+
+[data.properties]
+  mass = "2.3 MeV/c2"
+  charge = "2/3 e"
+  spin = "1/2"
   composition = "elementary"
+  antiparticle = "ubar"
+
+[data.category]
   statistics = "fermion"
   type = "quark"
   generation = 1
 
-[history]
+[data.history]
   theorized_year = 1964
   theorized_by = 	["Murray Gell-Mann", "George Zweig"]
   discovered_year = 1968
