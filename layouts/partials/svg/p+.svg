@@ -1,0 +1,5 @@
+<svg class="brick" preserveAspectRatio="xMinYMin meet" viewBox="0 0 300 200" width={{.width}}>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="translate(30,20)" class="green"/>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="translate(-35,50)" class="blue"/>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" class="red"/>
+</svg>

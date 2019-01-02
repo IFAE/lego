@@ -4,7 +4,6 @@ date= 2018-12-17T16:17:14+01:00
 draft= false
 name = "u"
 pdgid = 1
-image = ""
 
 [data]
 [data.properties]

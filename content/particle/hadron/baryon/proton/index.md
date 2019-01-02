@@ -1,8 +1,8 @@
 +++
-title = "Quark Up"
+title = "Proton"
 date= 2018-12-17T16:17:14+01:00
 draft= false
-name = "u"
+name = "p+"
 pdgid = 1
 
 [data]
@@ -10,7 +10,7 @@ pdgid = 1
   mass = 2.3
   charge = "2/3"
   spin = "1/2"
-  composition = "elementary"
+  composition = "u,d,d"
   antiparticle = "ubar"
 [data.category]
   statistics = "fermion"
