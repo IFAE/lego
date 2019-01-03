@@ -14,6 +14,10 @@
 //   left: 0;
 // }
 
+svg {
+  border: solid 1px black;
+}
+
 g{
   stroke-width: 1;
   stroke-linecap: round;
@@ -44,8 +48,45 @@ g{
   }
 }
 
+@keyframes antimatterloop {
+  0% {
+    --noshadow: cyan;
+    --shadow1: mediumturquoise;
+    --shadow0: turquoise;
+  }
+  33% {
+    --noshadow: magenta;
+    --shadow1: darkorchid;
+    --shadow0: mediumorchid;
+  }
+  66% {
+    --noshadow: yellow;
+    --shadow1: gold;
+    --shadow0: khaki;
+  }
+  100% {
+    --noshadow: cyan;
+    --shadow1: mediumturquoise;
+    --shadow0: turquoise;
+  }
+}
+
 .matter {
   animation: matterloop 1s ease infinite;
+}
+
+.antimatter {
+  animation: antimatterloop 1s ease infinite;
+}
+
+.loop-1 {
+  animation-delay: -0.33s;
+}
+.loop-2 {
+  animation-delay: -0.66s;
+}
+.loop-3 {
+  animation-delay: -1s;
 }
 
 

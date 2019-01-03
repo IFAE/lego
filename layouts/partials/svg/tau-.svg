@@ -1,0 +1,3 @@
+<svg class="brick" preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 140" width={{.width}}>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#1x3brick" class="white"/>
+</svg>

@@ -122,23 +122,29 @@
       <use xlink:href="#4pins"/>
   </symbol>
 
-  <symbol id="2x3brick" viewBox="0 0 200 140">
+  <symbol id="2x3brick">
       <use xlink:href="#2x3body"/>
       <use xlink:href="#6pins" />
   </symbol>
 
-  <symbol id="2x4brick" viewBox="0 0 200 140">
+  <symbol id="2x4brick">
       <use xlink:href="#2x4body"/>
       <use xlink:href="#8pins"/>
   </symbol>
 
-  <symbol id="1x1brick" viewBox="0 0 200 140">
+  <symbol id="1x1brick">
       <use xlink:href="#1x1body"/>
       <use xlink:href="#pin"/>
   </symbol>
 
-  <symbol id="1x2brick" viewBox="0 0 200 140">
+  <symbol id="1x2brick">
       <use xlink:href="#1x2body"/>
+      <use xlink:href="#pin" transform="translate(10,8)"/>
+      <use xlink:href="#pin" transform="translate(44,-6)"/>
+  </symbol>
+
+  <symbol id="1x3brick">
+      <use xlink:href="#1x3body"/>
       <use xlink:href="#pin" transform="translate(10,8)"/>
       <use xlink:href="#pin" transform="translate(44,-6)"/>
   </symbol>

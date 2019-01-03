@@ -1,20 +1,20 @@
 +++
-title = "Quark Up"
+title = "Negative Pion"
 date= 2018-12-17T16:17:14+01:00
-draft= false
-name = "u"
+draft= true
+name = "pi-"
 pdgid = 1
 
 [data]
 [data.properties]
   mass = 2.3
-  charge = "2/3"
-  spin = "1/2"
-  composition = "elementary"
-  antiparticle = "ubar"
+  charge = 1
+  spin = 0
+  composition = "ubar, d"
+  antiparticle = "pi+"
 [data.category]
-  statistics = "fermion"
-  type = "quark"
+  statistics = "Bosonic"
+  type = "Meson"
   generation = 1
 [data.history]
   theorized_year = 1964

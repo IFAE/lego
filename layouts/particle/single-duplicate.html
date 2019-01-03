@@ -1,11 +1,12 @@
 {{ define "main" }}
+{{ with $.Page.Resources.GetMatch "data.md"}}
+  {{$.Scratch.Set "data" .Params.data}}
+{{end}}
+{{$data := $.Scratch.Get "data"}}
 <section class="jumbotron text-center">
   <div class="container">
-    <h1 class="jumbotron-heading">{{.Title}}</h1>
-    <!-- {{ (.Resources.GetMatch "*.svg").Content | safeHTML }} -->
-    {{ partial "brick.html" (dict "particle" $.Page.Params.name "width" 100)}}
-    {{ partial "brick.html" (dict "particle" "p+" "width" 100)}}
-    <h2>{{$.Page.Params.name}}</h2>
+    <h1 class="jumbotron-heading">{{.Title}}  ( {{$data.name}} )</h1>
+    {{ partial "brick.html" (dict "particle" $data.name "width" 300)}}
   </div>
 </section>
 <section class="container">
@@ -29,7 +30,7 @@
       {{$order := slice "mass" "charge" "spin" "composition" "antiparticle"}}
       {{ range $order }}
         <div class="col-sm">
-        {{ partial "particlecard.html" (dict "color" (index $colors .) "key" . "value" (index $.Page.Params.data.properties .) "unit" (index $units .) )}}
+        {{ partial "particlecard.html" (dict "color" (index $colors .) "key" . "value" (index $data.properties .) "unit" (index $units .) )}}
         </div>
       {{end}}
       </div>
@@ -37,4 +38,5 @@
   </div>
 
 </section>
+
 {{ end }}

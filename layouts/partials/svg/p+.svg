@@ -1,5 +1,5 @@
-<svg class="brick" preserveAspectRatio="xMinYMin meet" viewBox="0 0 300 200" width={{.width}}>
-  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="translate(30,20)" class="green"/>
-  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="translate(-35,50)" class="blue"/>
-  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" class="red"/>
+<svg class="brick" preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 140" width={{.width}}>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="scale(0.8) translate(60,10)" class="matter loop-3"/>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="scale(0.8) translate(-10,40)" class="matter loop-2"/>
+  <use xlink:href="/img/svg/bricks-svg-defs.svg#2x2brick" transform="scale(0.8) translate(20,-5)" class="matter loop-1"/>
 </svg>

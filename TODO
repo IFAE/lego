@@ -1,4 +1,5 @@
 add more particles
 implement i18n, if one page per lang, then avoid repetition of parameters: json or page resource
 data or pages?
+use text in svgs
 center svgs
