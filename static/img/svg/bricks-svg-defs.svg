@@ -1,14 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet type="text/css" href="bricks.css"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
-  <style>/* <![CDATA[ */
-    .blue {
-      --noshadow: blue;
-      --shadow1: darkblue;
-      --shadow0: mediumblue;
-    }
-   /* ]]> */
-   </style>
   <defs>
     <g id="pin">
       <path class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" d="M79.178,50.88c0.011,0.2,0,0.41-0.029,0.61
@@ -40,8 +32,8 @@
       <use xlink:href="#2pins" transform="translate(74,-30)"/>
     </g>
     <g id="8pins">
-      <use xlink:href="#4pins"/>
-      <use xlink:href="#4pins" transform="translate(74,-30)"/>
+      <use xlink:href="#2pins"/>
+      <use xlink:href="#2pins" transform="translate(-10,-20)"/>
     </g>
     <g id="2x2body">
       <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
@@ -61,11 +53,11 @@
     </g>
     <g id="2x4body">
       <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="
-			193.006,45.209 196.186,76.673 49.515,138.308 46.335,106.844 		"/>
+			193.006,45.209 196.186,76.673 49.515,138.308 46.335,106.844"/>
       <polygon class="shadow1" fill = "whitesmoke" style="fill: var(--shadow1); stroke: var(--shadow1)" points="
-			46.335,106.844 49.515,138.308 6.994,95.787 3.814,64.323 		"/>
+			46.335,106.844 49.515,138.308 6.994,95.787 3.814,64.323"/>
       <polygon class="noshadow" fill = "white" style="fill: var(--noshadow); stroke: var(--noshadow)" points="
-			193.006,45.209 46.335,106.844 3.814,64.323 150.485,2.688 		"/>
+			193.006,45.209 46.335,106.844 3.814,64.323 150.485,2.688"/>
     </g>
     <g id="1x1body">
       <polygon class="shadow0" fill = "snow" style="fill: var(--shadow0); stroke: var(--shadow0)" points="98.562,54.468 101.742,85.932
@@ -127,8 +119,8 @@
       <use xlink:href="#6pins" />
   </symbol>
 
-  <symbol id="2x4brick">
-      <use xlink:href="#2x4body"/>
+  <symbol id="2x4brick222222">
+      <use xlink:href="#2x2body"/>
       <use xlink:href="#8pins"/>
   </symbol>
 

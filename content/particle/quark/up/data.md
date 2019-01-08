@@ -1,6 +1,6 @@
 +++
 [data]
-  pdgid = 1
+  pdgid = 2
   name = "u"
   [data.properties]
     mass = 2.3

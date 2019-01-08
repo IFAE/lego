@@ -1,9 +1,9 @@
 +++
 [data]
-  pdgid = 1
+  pdgid = 4
   name = "c"
   [data.properties]
-    mass = 2.3
+    mass = 129
     charge = "2/3"
     spin = "1/2"
     composition = "elementary"
@@ -11,12 +11,12 @@
   [data.category]
     statistics = "fermion"
     type = "quark"
-    generation = 1
+    generation = 2
   [data.history]
-    theorized_year = 1964
-    theorized_by = 	["Murray Gell-Mann", "George Zweig"]
-    discovered_year = 1968
-    discovered_by = "SLAC"
+    theorized_year = 1970
+    theorized_by = 	["Sheldon Glashow", "John Iliopoulos","Luciano Maiani"]
+    discovered_year = 1974
+    discovered_by = ["SLAC","BNL"]
   [info]
     url = ""
 +++

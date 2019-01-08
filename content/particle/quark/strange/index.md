@@ -1,4 +1,4 @@
 +++
 title = "Quark Strange"
-draft= true
+draft= false
 +++

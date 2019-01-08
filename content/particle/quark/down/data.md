@@ -3,8 +3,8 @@
   pdgid = 1
   name = "d"
   [data.properties]
-    mass = 2.3
-    charge = "-2/3"
+    mass = 4.8
+    charge = "-1/3"
     spin = "1/2"
     composition = "elementary"
     antiparticle = "dbar"
@@ -18,5 +18,5 @@
     discovered_year = 1968
     discovered_by = "SLAC"
   [info]
-    url = ""
+    url = "https://en.wikipedia.org/wiki/Down_quark"
 +++
